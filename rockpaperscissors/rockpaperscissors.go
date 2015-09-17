@@ -62,21 +62,3 @@ func Turn() {
 	fmt.Printf("You picked: %s, the computer picked: %s\n", player1Hand, computerHand)
 	fmt.Println(CheckWinner(player1, computer))
 }
-
-/*
-// Example main()
-package main
-
-import (
-	"flynnguy.com/rockpaperscissors"
-	"math/rand"
-	"time"
-)
-
-func main() {
-	rand.Seed(time.Now().Unix())
-	for true {
-		rockpaperscissors.Turn()
-	}
-}
-*/
